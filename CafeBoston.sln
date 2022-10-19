@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeBoston.UI", "CafeBoston.UI\CafeBoston.UI.csproj", "{F7E40005-D756-44B1-8AF5-B4372FDEFEBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeBoston.DATA", "CafeBoston.DATA\CafeBoston.DATA.csproj", "{45915830-982B-4963-B408-5BE17D4B1441}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B77E03C-2E96-49B0-ABB3-DEFF66C05EF9}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7E40005-D756-44B1-8AF5-B4372FDEFEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E40005-D756-44B1-8AF5-B4372FDEFEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E40005-D756-44B1-8AF5-B4372FDEFEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E40005-D756-44B1-8AF5-B4372FDEFEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45915830-982B-4963-B408-5BE17D4B1441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45915830-982B-4963-B408-5BE17D4B1441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45915830-982B-4963-B408-5BE17D4B1441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45915830-982B-4963-B408-5BE17D4B1441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A216CE2C-2B03-42B3-921C-FBFB65C6685A}
+	EndGlobalSection
+EndGlobal
