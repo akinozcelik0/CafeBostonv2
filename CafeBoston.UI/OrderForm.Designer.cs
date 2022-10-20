@@ -170,6 +170,7 @@
             this.btnMove.TabIndex = 10;
             this.btnMove.Text = "Move";
             this.btnMove.UseVisualStyleBackColor = true;
+            this.btnMove.Click += new System.EventHandler(this.btnMove_Click);
             // 
             // btnCancel
             // 

@@ -55,6 +55,7 @@
             this.tsmiProducts.Name = "tsmiProducts";
             this.tsmiProducts.Size = new System.Drawing.Size(66, 20);
             this.tsmiProducts.Text = "Products";
+            this.tsmiProducts.Click += new System.EventHandler(this.tsmiProducts_Click);
             // 
             // tsmiOrderHistory
             // 
@@ -93,6 +94,7 @@
             this.MainMenuStrip = this.msTop;
             this.Name = "MainForm";
             this.Text = "Cafe Boston";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.msTop.ResumeLayout(false);
             this.msTop.PerformLayout();
